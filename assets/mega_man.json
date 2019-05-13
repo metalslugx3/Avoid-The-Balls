@@ -1,0 +1,839 @@
+{
+	"textures": [
+		{
+			"image": "mega_man.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 154,
+				"h": 154
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "jump_shoot",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 31,
+						"h": 31
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 31,
+						"h": 31
+					}
+				},
+				{
+					"filename": "jump_throw",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 28,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 28,
+						"h": 30
+					},
+					"frame": {
+						"x": 1,
+						"y": 34,
+						"w": 28,
+						"h": 30
+					}
+				},
+				{
+					"filename": "hurt",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 3,
+						"w": 28,
+						"h": 29
+					},
+					"frame": {
+						"x": 34,
+						"y": 1,
+						"w": 28,
+						"h": 29
+					}
+				},
+				{
+					"filename": "idle_shoot",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 40,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 7,
+						"w": 32,
+						"h": 25
+					},
+					"frame": {
+						"x": 64,
+						"y": 1,
+						"w": 32,
+						"h": 25
+					}
+				},
+				{
+					"filename": "jump_01",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 26,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 26,
+						"h": 30
+					},
+					"frame": {
+						"x": 1,
+						"y": 66,
+						"w": 26,
+						"h": 30
+					}
+				},
+				{
+					"filename": "climb_ladder_shoot",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 25,
+						"h": 30
+					},
+					"frame": {
+						"x": 1,
+						"y": 98,
+						"w": 25,
+						"h": 30
+					}
+				},
+				{
+					"filename": "lose_control",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 9,
+						"w": 30,
+						"h": 23
+					},
+					"frame": {
+						"x": 1,
+						"y": 130,
+						"w": 30,
+						"h": 23
+					}
+				},
+				{
+					"filename": "run_shoot_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 30,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 30,
+						"h": 23
+					},
+					"frame": {
+						"x": 98,
+						"y": 1,
+						"w": 30,
+						"h": 23
+					}
+				},
+				{
+					"filename": "blink_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 7,
+						"w": 23,
+						"h": 25
+					},
+					"frame": {
+						"x": 130,
+						"y": 1,
+						"w": 23,
+						"h": 25
+					}
+				},
+				{
+					"filename": "run_shoot_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 30,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 30,
+						"h": 23
+					},
+					"frame": {
+						"x": 64,
+						"y": 28,
+						"w": 30,
+						"h": 23
+					}
+				},
+				{
+					"filename": "throw",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 0,
+						"w": 28,
+						"h": 24
+					},
+					"frame": {
+						"x": 34,
+						"y": 32,
+						"w": 28,
+						"h": 24
+					}
+				},
+				{
+					"filename": "run_shoot_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 30,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 0,
+						"w": 27,
+						"h": 24
+					},
+					"frame": {
+						"x": 31,
+						"y": 58,
+						"w": 27,
+						"h": 24
+					}
+				},
+				{
+					"filename": "run_shoot_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 30,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 0,
+						"w": 27,
+						"h": 24
+					},
+					"frame": {
+						"x": 29,
+						"y": 84,
+						"w": 27,
+						"h": 24
+					}
+				},
+				{
+					"filename": "warp_in_effect_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 20,
+						"w": 24,
+						"h": 12
+					},
+					"frame": {
+						"x": 28,
+						"y": 110,
+						"w": 24,
+						"h": 12
+					}
+				},
+				{
+					"filename": "climb_ladder_01",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 29
+					},
+					"frame": {
+						"x": 33,
+						"y": 124,
+						"w": 17,
+						"h": 29
+					}
+				},
+				{
+					"filename": "climb_ladder_02",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 29
+					},
+					"frame": {
+						"x": 52,
+						"y": 124,
+						"w": 17,
+						"h": 29
+					}
+				},
+				{
+					"filename": "slide",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 27,
+						"h": 21
+					},
+					"frame": {
+						"x": 64,
+						"y": 53,
+						"w": 27,
+						"h": 21
+					}
+				},
+				{
+					"filename": "ladder_throw",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 0,
+						"w": 26,
+						"h": 28
+					},
+					"frame": {
+						"x": 60,
+						"y": 76,
+						"w": 26,
+						"h": 28
+					}
+				},
+				{
+					"filename": "spawn_effect",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 0,
+						"w": 9,
+						"h": 32
+					},
+					"frame": {
+						"x": 88,
+						"y": 76,
+						"w": 9,
+						"h": 32
+					}
+				},
+				{
+					"filename": "mega_man_death_effect_01",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 58,
+						"y": 106,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "blink_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 7,
+						"w": 23,
+						"h": 25
+					},
+					"frame": {
+						"x": 71,
+						"y": 124,
+						"w": 23,
+						"h": 25
+					}
+				},
+				{
+					"filename": "warp_in_effect_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 11,
+						"w": 24,
+						"h": 21
+					},
+					"frame": {
+						"x": 93,
+						"y": 53,
+						"w": 24,
+						"h": 21
+					}
+				},
+				{
+					"filename": "run_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 9,
+						"w": 26,
+						"h": 23
+					},
+					"frame": {
+						"x": 96,
+						"y": 28,
+						"w": 26,
+						"h": 23
+					}
+				},
+				{
+					"filename": "blink_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 7,
+						"w": 23,
+						"h": 25
+					},
+					"frame": {
+						"x": 99,
+						"y": 76,
+						"w": 23,
+						"h": 25
+					}
+				},
+				{
+					"filename": "white_effect",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 24
+					},
+					"frame": {
+						"x": 124,
+						"y": 28,
+						"w": 24,
+						"h": 24
+					}
+				},
+				{
+					"filename": "idle",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 7,
+						"w": 23,
+						"h": 25
+					},
+					"frame": {
+						"x": 99,
+						"y": 103,
+						"w": 23,
+						"h": 25
+					}
+				},
+				{
+					"filename": "run_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 9,
+						"w": 23,
+						"h": 23
+					},
+					"frame": {
+						"x": 96,
+						"y": 130,
+						"w": 23,
+						"h": 23
+					}
+				},
+				{
+					"filename": "climb_end",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 9,
+						"w": 18,
+						"h": 23
+					},
+					"frame": {
+						"x": 121,
+						"y": 130,
+						"w": 18,
+						"h": 23
+					}
+				},
+				{
+					"filename": "mega_man_death_effect_02",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 12,
+						"h": 12
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 12,
+						"h": 12
+					},
+					"frame": {
+						"x": 76,
+						"y": 110,
+						"w": 12,
+						"h": 12
+					}
+				},
+				{
+					"filename": "run_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 7,
+						"w": 18,
+						"h": 25
+					},
+					"frame": {
+						"x": 124,
+						"y": 54,
+						"w": 18,
+						"h": 25
+					}
+				},
+				{
+					"filename": "run_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 8,
+						"w": 18,
+						"h": 24
+					},
+					"frame": {
+						"x": 124,
+						"y": 81,
+						"w": 18,
+						"h": 24
+					}
+				},
+				{
+					"filename": "mega_man_death_effect_03",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 10,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 10
+					},
+					"frame": {
+						"x": 124,
+						"y": 107,
+						"w": 10,
+						"h": 10
+					}
+				},
+				{
+					"filename": "slide_dust_01",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 8,
+						"h": 8
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 8,
+						"h": 8
+					},
+					"frame": {
+						"x": 124,
+						"y": 119,
+						"w": 8,
+						"h": 8
+					}
+				},
+				{
+					"filename": "slide_dust_02",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 8,
+						"h": 8
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 8,
+						"h": 8
+					},
+					"frame": {
+						"x": 136,
+						"y": 107,
+						"w": 8,
+						"h": 8
+					}
+				},
+				{
+					"filename": "slide_dust_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 8,
+						"h": 8
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 0,
+						"w": 5,
+						"h": 7
+					},
+					"frame": {
+						"x": 90,
+						"y": 110,
+						"w": 5,
+						"h": 7
+					}
+				},
+				{
+					"filename": "hurt_dust_01",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 5,
+						"h": 6
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 5,
+						"h": 6
+					},
+					"frame": {
+						"x": 144,
+						"y": 54,
+						"w": 5,
+						"h": 6
+					}
+				},
+				{
+					"filename": "hurt_dust_02",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 5,
+						"h": 5
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 5,
+						"h": 5
+					},
+					"frame": {
+						"x": 144,
+						"y": 62,
+						"w": 5,
+						"h": 5
+					}
+				},
+				{
+					"filename": "hurt_dust_03",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 5,
+						"h": 4
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 5,
+						"h": 4
+					},
+					"frame": {
+						"x": 144,
+						"y": 69,
+						"w": 5,
+						"h": 4
+					}
+				},
+				{
+					"filename": "mega_man_death_effect_04",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 4,
+						"h": 4
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 4,
+						"h": 4
+					},
+					"frame": {
+						"x": 144,
+						"y": 75,
+						"w": 4,
+						"h": 4
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:9b8667cec972e6e8187ee002958aef44:5b665dbf362ba2720f74a927f33cc2d1:7991b24845d540ccbee4b78fcdbc6325$"
+	}
+}
